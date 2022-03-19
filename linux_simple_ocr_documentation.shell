@@ -1,0 +1,8 @@
+# To install tesseract-ocr give the command:
+
+sudo apt-get install tesseract-ocr
+
+# To scan an image give the command:
+# Note: do it without ( { } ) the bracket
+
+tesseract {image-file-name.extension} {output-file-name.extension}

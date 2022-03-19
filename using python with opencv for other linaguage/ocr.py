@@ -1,3 +1,16 @@
+## depedency:
+'''
+## linux
+sudo apt install tesseract-ocr
+sudo apt install libtesseract-dev
+
+## mac
+sudo port install tesseract
+
+## Install PyTesseract
+pip install pytesseract
+pip3 install pytesseract
+'''
 import cv2
 import numpy as np
 import pytesseract
